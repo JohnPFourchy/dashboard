@@ -148,3 +148,90 @@ button {
     margin-bottom: 10px;
     margin-left: 30px;
 }
+
+.other-cards {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    background-color: var(--bg-color);
+}
+
+.o-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.o-wrap .section-header-p {
+    align-self: flex-start;
+    margin-top: 22px;
+}
+
+hr {
+    margin: 5px 0;
+}
+
+.shape-holder,
+.announcements {
+    height: fit-content;
+    width: 80%;
+    padding: 10px;
+    background-color: var(--off-white);
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.shape-holder {
+    position: relative;
+    height: 200px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #22c55e;
+    position: absolute;
+}
+
+.circle:nth-child(1) {
+    background-color: lightgreen;
+    z-index: 4;
+    top: 50px;
+    left: 15px;
+}
+
+.circle:nth-child(2) {
+    left: 150px;
+    top: 75px;
+    background-color: black;
+    transform: scale(3);
+}
+
+.circle:nth-child(3) {
+    background-color: yellow;
+    transform: scale(1.5);
+    top: 50px;
+    z-index: 3;
+    left: 70px;
+}
+
+.circle:nth-child(4) {
+    background-color: grey;
+    transform: scale(1.75);
+    top: 115px;
+    left: 30px;
+}
+
+.circle:nth-child(5) {
+    background-color: lightgrey;
+    top: 110px;
+    left: 83px;
+}
+
+.circle:nth-child(6) {
+    background-color: darkblue;
+    transform: scale(1.75);
+    top: 125px;
+    left: 175px;
+}
